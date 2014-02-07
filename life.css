@@ -1,0 +1,168 @@
+body {
+	background: rgb(167,219,216);
+	font-family: Helvetica, sans-serif;
+	text-align: center;
+	vertical-align: middle:
+}
+
+st {
+	font-size: small;
+	text-decoration: underline;
+}
+
+cr {
+	font-size: small;
+	font-family: Courier;
+}
+
+#header {
+   	position: absolute;
+	top: 10px;
+	width: 90%;
+	height: 50px;
+	left: 5%;
+	color: white;
+	background: rgb(243,134,48);
+}
+
+#drawflip {
+	position: absolute;
+	top: 70px;
+	height: 50px;
+	left: 5%;
+	width: 9%;
+	color: black;
+	background: rgb(167,219,216);
+	border: 1px solid black;
+}
+
+#cleargrid {
+	position: absolute;
+	top: 70px;
+	height: 50px;
+	left: 66%;
+	width: 9%;
+	color: black;
+	background: rgb(167,219,216);
+	border: 1px solid black;
+}
+
+#drawhelp {
+    position: absolute;
+	top: 70px;
+	height: 50px;
+	left: 15%;
+	width: 50%;
+	background: rgb(167,219,216);
+	border: 1px dashed black;
+}
+
+#canvas {
+    position: absolute;
+	top: 130px;
+	left: 5%;
+}
+
+#gun {
+	position: absolute;
+	top: 70px;
+	height: 50px;
+	left: 15%;
+	width: 9%;
+	background: rgb(210,160,210);
+	color: white;
+}
+
+#acorn {
+	position: absolute;
+	top: 70px;
+	height: 50px;
+	left: 25%;
+	width: 9%;
+	background: rgb(210,160,210);
+	color: white;
+}
+
+#diehard {
+	position: absolute;
+	top: 70px;
+	height: 50px;
+	left: 35%;
+	width: 9%;
+	background: rgb(210,160,210);
+	color: white;
+}
+
+#random {
+    position: absolute;
+	top: 70px;
+	height: 50px;
+	left: 45%;
+	width: 9%;
+	background: rgb(210,160,210);
+	color: white;
+}
+
+#divider {
+	position: absolute;
+	top: 70px;
+	height: 50px;
+	left: 55%;
+	width: 1px;
+	background: black;
+}
+	
+#sizebox {
+    position: absolute;
+	left: 76%;
+	width: 9%;
+	top: 70px;
+	height: 50px;
+}
+
+#sizetext {
+	left: 0%;
+	width: 25%;
+}
+#sizebutton {
+	left: 50%;
+	width: 50%;
+}
+
+#control {
+    position: absolute;
+	left: 56%;
+	width: 9%;
+	top: 70px;
+	height: 50px;
+	background: black;
+	color: white;
+}
+
+#state {
+    position: absolute;
+	left: 66%;
+	width: 9%;
+	top: 70px;
+	height: 50px;
+	background: black;
+	color: white;
+}
+
+#showgrid {
+    position: absolute;
+	left: 86%;
+	width: 9%;
+	top: 70px;
+	height: 50px;
+	background: black;
+	color: white;
+}
+
+#credits {
+	position: absolute;
+	left: 0px;
+	width: 100%;
+	bottom: 5px;
+	color: black;
+}
